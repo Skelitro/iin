@@ -1,0 +1,11 @@
+SpellBee AI Android build target
+
+This ZIP is a complete Android/Gradle project.
+Build module: :app
+Application ID: com.spellbee.ai
+Debug APK output: app/build/outputs/apk/debug/app-debug.apk
+
+For automated builds, use GitHub Actions workflow:
+.github/workflows/build-apk.yml
+
+The workflow downloads the Vosk English model before building.
